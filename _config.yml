@@ -1,0 +1,27 @@
+# title: Arc
+# email: vin@misday.com
+# description: ""
+# baseurl: ""
+# url: ""
+
+title: 管理技术债务
+description: 管理技术债务中文版。
+
+# Development server config, needed to load some of the content
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
+# Theme settings
+site_author: Vin
+repo_url: 'https://github.com/suseme/mtd'
+edit_on_github: false
+github_docs_folder: false
+logo: '/assets/img/cover.jpg'
+site_favicon: '/assets/img/favicon.ico'
+sticky_navigation: true
+prev_next_buttons_location: both
+search_enabled: true
+google_analytics: UA-28333273-1
+google_analytics_anonymize_ip: true
+hljs_style: github-gist
